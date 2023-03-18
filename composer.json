@@ -3,8 +3,9 @@
     "description": "simple project noban",
     "autoload": {
         "psr-4": {
-            "App\\": "/src"
-        }
+            "App\\": "./App"
+        },
+        "files": ["App/helpers/globalFunctions.php"]
     },
     "authors": [
         {
